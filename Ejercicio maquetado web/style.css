@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(255, 255, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header{
+    z-index: 100;
+    background-color:  #F1F1F1  ;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    -webkit-box-shadow: -5px 4px 13px -1px rgba(112,112,112,1);
+     -moz-box-shadow: -5px 4px 13px -1px rgba(112,112,112,1);
+     box-shadow: -5px 4px 13px -1px rgba(112,112,112,1);
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    margin-right: 50px;
+   }
+
+.menu ul{
+    margin: 0 0 0 50px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+    margin: 0 0 0 50px;
+ }
+
+.menu a {
+    line-height: 70px;
+    text-align: right;
+    color: black;
+}
+
+.menu i{
+    color: rgb(36, 36, 201);
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+
+}
+
+.menu a:hover{
+    color: lightblue;
+}
+
+.slider{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color:#3E55F1 ;
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    padding-top: calc(50% - 450px);
+}
+
+.ola
+{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+
+}
+
+.titulo1{
+    font-size: 80px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(255, 250, 250);
+}
+
+.titulo2{
+    font-size: 35px;
+    font-weight: 400;
+    padding: 50px;
+    font-style: oblique;
+    color: rgb(255, 250, 250);
+    margin-bottom: 100px;
+}
+
+.masinfo a{
+    font-weight: 600;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px 20px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: uppercase;
+     }
+
+     .yo{
+         font-size: 30px;
+         font-weight: 600;
+         text-align: center;
+     }
+
+     .texto{
+        font-size: 15px;
+        padding: 20px;
+        font-weight: 400;
+        font-style: inherit;
+        width: 1200px;
+        text-align: center; 
+         
+     }
+
+    .foto{
+        width: 300x;
+        height: 300px;
+        margin: auto;
+        padding-bottom: 30px;
+        
+    }
+
+    .quiensoy{
+        z-index: 10;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        padding: 30px;
+        text-align: center;
+       }
+
+       .parallax{
+           width: 100%;
+           height: 100vh;
+           background-image: url(servicios.jpg);
+           background-size: cover;
+           background-attachment: fixed;
+           background-position: center;
+           padding: calc(50vh - 50px);
+       }
+
+       .servicios{
+           font: size 45px;
+           color: black;
+           width: 900px;
+           height: 100px;
+           text-align: center;
+           line-height: 100px;
+           
+
+       }
+
+       .footer{
+           width: 100%;
+           height: 300px;
+           text-align: center;
+           padding-top: 30px;
+           background-color: rgba(48, 46, 46, 0.822);
+       }
+
+       .contacto{
+          margin-bottom: 50px;
+          font-weight: 600;
+          font-size: 35px;
+          font-style: italic;
+          color: white; 
+       }
+
+       .formulario{
+           font-size: 20px;
+           font-weight: 200;
+           margin: 10px;
+           color: white;
+       }
